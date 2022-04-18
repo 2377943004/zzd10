@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="iconfont.css">
+    <style>
+        body{
+            background: url(27.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .login{
+            width: 30%;
+            margin:  150px auto;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            padding: 15px;
+        }
+        h1{
+            font-size:  40px;
+            color: #fff;
+            font-weight: 700;
+            margin: 20px auto;
+        }
+        .item input{
+            border: 0;
+            border-bottom: 2px solid #fff;
+            background :none;
+            margin: 10px;
+            padding: 5px;
+            color: #fff;
+            outline: none;
+        }
+        .item input[type=text]:focus{
+            border-bottom:  2px solid pink;
+        }
+        .login input[type=submit]{
+            width: 160px;
+            height: 36px;
+            font-size: 18px;
+            border-radius: 18px;
+            border: 0;
+            background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+            margin: 20px;
+        }
+        .iconfont {
+            color: pink;
+            font-size: 30px;
+            font-weight: 500;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>统一身份认证平台</h1>
+        <div>
+            <form action="#">
+                <div class="item"  >
+                    <i class="iconfont icon-user"></i>
+                    <input type="text" placeholder="请输入用户名" >
+                </div>
+                <div class="item">
+                    <i class="iconfont icon-mima" ></i>
+                    <input type="text" placeholder="请输入密码" >
+                </div>
+                <input type="submit" value="登录">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
